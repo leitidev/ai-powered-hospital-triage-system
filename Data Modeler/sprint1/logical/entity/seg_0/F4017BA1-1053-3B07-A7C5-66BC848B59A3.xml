@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F4017BA1-1053-3B07-A7C5-66BC848B59A3" name="T_IS_EXAME">
+<createdBy>leo</createdBy>
+<createdTime>2023-11-17 01:59:21 UTC</createdTime>
+<ownerDesignName>sprint1</ownerDesignName>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_exame" id="86DFF4CD-3B83-9F12-D0E2-627D7122A79D">
+<createdBy>leo</createdBy>
+<createdTime>2023-11-17 02:02:14 UTC</createdTime>
+<ownerDesignName>sprint1</ownerDesignName>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_exame" id="90E63343-DB4B-2969-C23C-C807B8C8A258">
+<createdBy>leo</createdBy>
+<createdTime>2023-11-17 02:02:24 UTC</createdTime>
+<ownerDesignName>sprint1</ownerDesignName>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_resultado" id="42D12F9A-1234-1DCC-0ACF-E6A1D290E04A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-10 14:51:07 UTC</createdTime>
+<ownerDesignName>sprint1</ownerDesignName>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_paciente" id="AAE13164-4099-4937-F934-FFA3AE284182">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-12 12:26:39 UTC</createdTime>
+<generatorID>C61287C3-C770-DC24-3B8A-8877E4C9389B</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="true"/>
+</engineerTo>
+<referedAttribute>AABEF880-3AB7-41CC-E762-CB8750965C29</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_funcionario" id="0A2FD9BA-739F-F4EE-F4BD-7E78801C82AD">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-12 12:42:38 UTC</createdTime>
+<generatorID>15B0A2C5-ED74-4A8B-DE78-8EE3C705F161</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="true"/>
+</engineerTo>
+<referedAttribute>6C439859-DAC3-A289-432E-5B81A31F68BE</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="75A558E0-7E67-1013-E9FF-B1F598CACF6B" name="T_IA_PROGNOSTICO PK">
+<createdBy>leo</createdBy>
+<createdTime>2023-11-17 02:02:23 UTC</createdTime>
+<ownerDesignName>sprint1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>86DFF4CD-3B83-9F12-D0E2-627D7122A79D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

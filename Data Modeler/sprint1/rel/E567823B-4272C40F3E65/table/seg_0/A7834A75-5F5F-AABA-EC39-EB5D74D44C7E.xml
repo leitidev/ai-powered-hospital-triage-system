@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7834A75-5F5F-AABA-EC39-EB5D74D44C7E" name="T_IS_FUNCIONARIO">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>FE31CF27-7139-A9D9-EC0B-B8EF69F63573</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_funcionario" id="08CDC05D-092F-CB1F-B531-BB8AECC345FE">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>6C439859-DAC3-A289-432E-5B81A31F68BE</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_funcionario" id="F323778A-C03D-FE09-010D-5BACF4DA73EF">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>D98EC29D-B7CA-9909-AC65-5466F13F4B75</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cpf" id="8DF26614-DF84-01D7-2D93-4C1D04E3A3B2">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>BC299170-00FA-7277-ADD9-3FBBB5BD5216</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="CACFE413-52C2-C21E-CF8E-7260942E8FEA">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>44F1FA2C-C2AC-1A01-63D6-20C7B003330B</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_IS_UNID_HOSPITALAR_id_unid_hospitalar" id="61AEB6DA-BCAD-F459-9033-D7CFD4C6EB13">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>3403F016-8881-83BA-0B65-82260D055C80</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8538DB38-19ED-A790-8390-6D81ADBF6E13" referredColumn="89D9957D-773C-C116-7FFF-C3951C02F1DB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D4EB1A60-6548-8647-9B5C-37DCEC2AF46B" name="T_IS_FUNCIONARIO_PK">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>01853292-B697-9964-0356-519A964BDF47</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08CDC05D-092F-CB1F-B531-BB8AECC345FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66AC60C4-A4F7-F4DE-9679-9FF73E570A1B" name="T_IS_FUNCIONARIO_T_IS_UNID_HOSPITALAR_FK">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>6E53290A-618D-AEDA-A217-A2FC41D326F2</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61AEB6DA-BCAD-F459-9033-D7CFD4C6EB13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

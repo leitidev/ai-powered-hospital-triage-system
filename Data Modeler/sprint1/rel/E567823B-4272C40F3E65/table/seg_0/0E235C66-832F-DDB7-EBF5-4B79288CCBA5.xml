@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0E235C66-832F-DDB7-EBF5-4B79288CCBA5" name="T_IS_UNID_HOSPITALAR">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>60FF079B-2F16-C2A0-D66B-90FA2019CA00</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_unid_hospitalar" id="89D9957D-773C-C116-7FFF-C3951C02F1DB">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>12057AF6-B9E2-DD46-FB8A-D60AEEF6FB63</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cnpj" id="B619E1B7-3E69-144C-4786-5F442A3336D4">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>A9829156-C608-FEAF-7D16-6AA7307F2C3C</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_razao_social" id="BFDBB831-0656-AA6B-D7FF-1477EE9ABBAE">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>2CCFA668-4AFD-B6B2-C74E-02BA987A75DD</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_IS_USUARIO_id_usuario" id="DB720096-4454-CBA4-B88E-C2EE61505069">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>2578C708-FDBC-ED7F-B008-8A34E38C5DBC</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ECF5640B-E10B-E218-2630-DD585C7350A3" referredColumn="147F4903-EB82-2E48-BD44-8CA492A0B8D5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35B9DC7C-5973-3003-C5FF-6B5660A5CF41" name="T_IS_UNID_HOSPITALAR_PK">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>12CE65DC-C088-582C-4819-6EE2635CA863</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89D9957D-773C-C116-7FFF-C3951C02F1DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9FE7CB6D-4B10-F5E8-4526-DABED182CF00" name="T_IS_UNID_HOSPITALAR__IDX">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<ownerDesignName>sprint1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>CAD994E7-1246-1026-BC1B-F02CDD58BFF4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="DB720096-4454-CBA4-B88E-C2EE61505069"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62968A46-0340-0814-3CEF-E4AB787D8B5C" name="T_IS_UNID_HOSPITALAR_T_IS_USUARIO_FK">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>CAD994E7-1246-1026-BC1B-F02CDD58BFF4</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB720096-4454-CBA4-B88E-C2EE61505069"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

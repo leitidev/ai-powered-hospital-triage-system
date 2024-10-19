@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="60FF079B-2F16-C2A0-D66B-90FA2019CA00" name="T_IS_UNID_HOSPITALAR">
+<createdBy>leo</createdBy>
+<createdTime>2023-11-17 02:06:58 UTC</createdTime>
+<ownerDesignName>sprint1</ownerDesignName>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_unid_hospitalar" id="12057AF6-B9E2-DD46-FB8A-D60AEEF6FB63">
+<createdBy>leo</createdBy>
+<createdTime>2023-11-17 02:07:55 UTC</createdTime>
+<ownerDesignName>sprint1</ownerDesignName>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cnpj" id="A9829156-C608-FEAF-7D16-6AA7307F2C3C">
+<createdBy>leo</createdBy>
+<createdTime>2023-11-17 02:09:30 UTC</createdTime>
+<ownerDesignName>sprint1</ownerDesignName>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_razao_social" id="2CCFA668-4AFD-B6B2-C74E-02BA987A75DD">
+<createdBy>leo</createdBy>
+<createdTime>2023-11-17 02:41:13 UTC</createdTime>
+<ownerDesignName>sprint1</ownerDesignName>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="2578C708-FDBC-ED7F-B008-8A34E38C5DBC">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-12 11:28:58 UTC</createdTime>
+<generatorID>CAD994E7-1246-1026-BC1B-F02CDD58BFF4</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="true"/>
+</engineerTo>
+<referedAttribute>C8D695D0-E591-0AC0-3CDC-62ABC511D82B</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="12CE65DC-C088-582C-4819-6EE2635CA863" name="T_IA_UNID_HOSPITALAR PK">
+<createdBy>leo</createdBy>
+<createdTime>2023-11-17 02:08:09 UTC</createdTime>
+<ownerDesignName>sprint1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>12057AF6-B9E2-DD46-FB8A-D60AEEF6FB63</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

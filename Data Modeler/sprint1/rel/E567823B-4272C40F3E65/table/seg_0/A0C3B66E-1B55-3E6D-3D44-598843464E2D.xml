@@ -1,0 +1,198 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0C3B66E-1B55-3E6D-3D44-598843464E2D" name="T_IS_PACIENTE">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>637DCD12-6EEB-62F1-22AC-F734C9A0552A</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_paciente" id="154A001B-0331-C968-B311-D8BD58BFCC44">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>AABEF880-3AB7-41CC-E762-CB8750965C29</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_paciente" id="333D44EA-E47F-236F-6949-0E8CD6666D5D">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>7926EE97-933B-D550-2189-9BDF720B07C3</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cpf" id="DD140651-EDBA-D866-11DD-CBB919694640">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>9BEE1C1E-6AD5-2AD6-B284-CFAF0CEA4333</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="13E25332-E13C-C47A-6AE5-AF9DE4EACB94">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>BF77F5A5-AC34-8C96-43DD-4ED895179FB5</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_rg" id="C1CE9B19-E746-A08E-90D9-77A8CDE5A2A9">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>258820B0-C7F8-83F4-43E5-8CF4F02948B8</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_sexo" id="C8F4A758-69F1-F18F-3130-6F9C65621FF9">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>6F44EAB9-941A-A2D3-C434-459D24281173</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_filiacao_paterna" id="BD70E7E8-0199-384E-F7E8-8AEBABC025DE">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>E18F8C8E-43F5-845E-C873-1F7A2142C191</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_filiacao_materna" id="2BDCC52E-9EE8-3FA3-C0C8-2960311AB4EE">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>0E5D26BD-47AC-CEE6-BEBA-D6CC9D09044C</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_IS_USUARIO_id_usuario" id="F21BCD40-E357-20D0-5C06-F4DBD2663FA0">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>567CF763-DEF2-5C23-6032-E342C8AE9C3F</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5EF2724-1605-EA23-92E8-A584D8DBC5D6" referredColumn="147F4903-EB82-2E48-BD44-8CA492A0B8D5"/>
+</associations>
+</Column>
+<Column name="T_IS_ENDERECO_id_endereco" id="B8E2768F-8DA9-0E25-8583-10A3C650216A">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>6D754514-7ACD-5ADD-6386-71FEFE68696E</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4B49B1C-B291-1F4D-D27F-732D81261965" referredColumn="4C7CBC54-861C-8790-46FC-433FB1A26D9F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B87D2EE-4BFC-2C0F-6B0A-B35D9B6A5AA8" name="T_IS_PACIENTE_PK">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>B27475B3-2211-1D0D-02EA-9F68F7A22BA9</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="154A001B-0331-C968-B311-D8BD58BFCC44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="831A6F78-F298-1045-B0F5-B993CB557E67" name="T_IS_PACIENTE__IDX">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<ownerDesignName>sprint1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>44E8A16E-C686-D74C-A930-4BB80AB037CA</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F21BCD40-E357-20D0-5C06-F4DBD2663FA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03B9F575-E472-CADE-C260-36D2FAC1F1AB" name="T_IS_PACIENTE__IDXv1">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<ownerDesignName>sprint1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C5248BF2-915C-F3B9-D854-D289569E9A6B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B8E2768F-8DA9-0E25-8583-10A3C650216A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6EB4E05-6453-0E20-BDCD-109EF833BDB8" name="T_IS_PACIENTE_T_IS_USUARIO_FK">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>44E8A16E-C686-D74C-A930-4BB80AB037CA</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F21BCD40-E357-20D0-5C06-F4DBD2663FA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8BEA89DF-19EE-9C80-600C-76C3CFC70204" name="T_IS_PACIENTE_T_IS_ENDERECO_FK">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>C5248BF2-915C-F3B9-D854-D289569E9A6B</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8E2768F-8DA9-0E25-8583-10A3C650216A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B3CEF62D-CB4E-D342-1B78-7DA0A96264A9" name="T_IS_EXAME">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>F4017BA1-1053-3B07-A7C5-66BC848B59A3</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_exame" id="0393E0E4-CF42-4587-102F-59C198C51914">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>86DFF4CD-3B83-9F12-D0E2-627D7122A79D</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_exame" id="0A091198-F3EE-40DB-C22E-7A88074F9F75">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>90E63343-DB4B-2969-C23C-C807B8C8A258</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_resultado" id="66AC1404-76FA-E3C5-376C-1D1FE5460EDD">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>42D12F9A-1234-1DCC-0ACF-E6A1D290E04A</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_IS_PACIENTE_id_paciente" id="1316ED0A-9FEC-C2B3-288F-F3834CB0854F">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>AAE13164-4099-4937-F934-FFA3AE284182</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A751D13-C72D-D53B-A878-37517F167D97" referredColumn="154A001B-0331-C968-B311-D8BD58BFCC44"/>
+</associations>
+</Column>
+<Column name="T_IS_FUNCIONARIO_id_funcionario" id="0F7E9740-357E-1279-F3F9-1C44C27D44A0">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>0A2FD9BA-739F-F4EE-F4BD-7E78801C82AD</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D588F12-7148-C102-B41C-1F09A44F0C3D" referredColumn="08CDC05D-092F-CB1F-B531-BB8AECC345FE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="125F6FD3-0A72-D015-1FA7-FC3F55760287" name="T_IS_EXAME_PK">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>75A558E0-7E67-1013-E9FF-B1F598CACF6B</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0393E0E4-CF42-4587-102F-59C198C51914"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="554DBCEC-2586-12B5-8FA1-D5BA17B2F925" name="T_IS_EXAME_T_IS_PACIENTE_FK">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>C61287C3-C770-DC24-3B8A-8877E4C9389B</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1316ED0A-9FEC-C2B3-288F-F3834CB0854F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E850E72-5AF6-8C30-BEDD-E654CC80E08F" name="T_IS_EXAME_T_IS_FUNCIONARIO_FK">
+<createdBy>Leiti</createdBy>
+<createdTime>2024-05-19 01:13:26 UTC</createdTime>
+<generatorID>15B0A2C5-ED74-4A8B-DE78-8EE3C705F161</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F7E9740-357E-1279-F3F9-1C44C27D44A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

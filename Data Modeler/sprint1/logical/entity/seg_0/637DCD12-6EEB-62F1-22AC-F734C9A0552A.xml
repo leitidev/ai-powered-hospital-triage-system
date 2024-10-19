@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="637DCD12-6EEB-62F1-22AC-F734C9A0552A" name="T_IS_PACIENTE">
+<createdBy>leo</createdBy>
+<createdTime>2023-11-17 01:45:06 UTC</createdTime>
+<ownerDesignName>sprint1</ownerDesignName>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_paciente" id="AABEF880-3AB7-41CC-E762-CB8750965C29">
+<createdBy>leo</createdBy>
+<createdTime>2023-11-17 01:46:57 UTC</createdTime>
+<ownerDesignName>sprint1</ownerDesignName>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_paciente" id="7926EE97-933B-D550-2189-9BDF720B07C3">
+<createdBy>leo</createdBy>
+<createdTime>2023-11-17 01:47:24 UTC</createdTime>
+<ownerDesignName>sprint1</ownerDesignName>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cpf" id="9BEE1C1E-6AD5-2AD6-B284-CFAF0CEA4333">
+<createdBy>leo</createdBy>
+<createdTime>2023-11-17 01:47:31 UTC</createdTime>
+<ownerDesignName>sprint1</ownerDesignName>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_email" id="BF77F5A5-AC34-8C96-43DD-4ED895179FB5">
+<createdBy>leo</createdBy>
+<createdTime>2023-11-17 01:49:05 UTC</createdTime>
+<ownerDesignName>sprint1</ownerDesignName>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_rg" id="258820B0-C7F8-83F4-43E5-8CF4F02948B8">
+<createdBy>leo</createdBy>
+<createdTime>2023-11-17 01:49:10 UTC</createdTime>
+<ownerDesignName>sprint1</ownerDesignName>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tp_sexo" id="6F44EAB9-941A-A2D3-C434-459D24281173">
+<createdBy>leo</createdBy>
+<createdTime>2023-11-23 03:09:37 UTC</createdTime>
+<ownerDesignName>sprint1</ownerDesignName>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_filiacao_paterna" id="E18F8C8E-43F5-845E-C873-1F7A2142C191">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-10 13:24:53 UTC</createdTime>
+<ownerDesignName>sprint1</ownerDesignName>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_filiacao_materna" id="0E5D26BD-47AC-CEE6-BEBA-D6CC9D09044C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-10 13:25:06 UTC</createdTime>
+<ownerDesignName>sprint1</ownerDesignName>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="567CF763-DEF2-5C23-6032-E342C8AE9C3F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-12 11:28:47 UTC</createdTime>
+<generatorID>44E8A16E-C686-D74C-A930-4BB80AB037CA</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="true"/>
+</engineerTo>
+<referedAttribute>C8D695D0-E591-0AC0-3CDC-62ABC511D82B</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_endereco" id="6D754514-7ACD-5ADD-6386-71FEFE68696E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-12 12:19:55 UTC</createdTime>
+<generatorID>C5248BF2-915C-F3B9-D854-D289569E9A6B</generatorID>
+<ownerDesignName>sprint1</ownerDesignName>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="true"/>
+</engineerTo>
+<referedAttribute>185417BF-1078-80E1-6BFF-9A8B3ED2F924</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B27475B3-2211-1D0D-02EA-9F68F7A22BA9" name="T_IA_PACIENTE PK">
+<createdBy>leo</createdBy>
+<createdTime>2023-11-17 01:47:23 UTC</createdTime>
+<ownerDesignName>sprint1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AABEF880-3AB7-41CC-E762-CB8750965C29</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

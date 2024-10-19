@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="069F0E92-8FE0-C500-C0B3-500AD49B7056" name="T_IS_ENDERECO">
+<createdBy>leo</createdBy>
+<createdTime>2023-11-17 01:50:14 UTC</createdTime>
+<ownerDesignName>sprint1</ownerDesignName>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_endereco" id="185417BF-1078-80E1-6BFF-9A8B3ED2F924">
+<createdBy>leo</createdBy>
+<createdTime>2023-11-17 01:50:29 UTC</createdTime>
+<ownerDesignName>sprint1</ownerDesignName>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_estado" id="98927849-2ABF-4242-0B15-B5FC7F7E2653">
+<createdBy>leo</createdBy>
+<createdTime>2023-11-17 01:50:34 UTC</createdTime>
+<ownerDesignName>sprint1</ownerDesignName>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_municipio" id="40AD86A4-8253-5D00-0091-AABFA5DF7E3B">
+<createdBy>leo</createdBy>
+<createdTime>2023-11-17 01:50:48 UTC</createdTime>
+<ownerDesignName>sprint1</ownerDesignName>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_logradouro" id="3ADC93DF-7345-E5C1-D800-6AEF87D2B84E">
+<createdBy>leo</createdBy>
+<createdTime>2023-11-17 01:50:56 UTC</createdTime>
+<ownerDesignName>sprint1</ownerDesignName>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_numero_residencial" id="B6C63F65-4145-F34E-97F0-35B3EB99F14A">
+<createdBy>leo</createdBy>
+<createdTime>2023-11-17 01:51:05 UTC</createdTime>
+<ownerDesignName>sprint1</ownerDesignName>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_complemento" id="E45255DE-FE9A-8436-1D4E-5296ED104212">
+<createdBy>leo</createdBy>
+<createdTime>2023-11-17 01:56:07 UTC</createdTime>
+<ownerDesignName>sprint1</ownerDesignName>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cep" id="95132827-DAD8-A94D-12B6-AC04AF3565D5">
+<createdBy>leo</createdBy>
+<createdTime>2023-11-22 06:34:15 UTC</createdTime>
+<ownerDesignName>sprint1</ownerDesignName>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="04CCB807-B1F3-C63F-50D8-E8FDB60DAB4C" name="T_IA_ENDERECO PK">
+<createdBy>leo</createdBy>
+<createdTime>2023-11-17 01:50:33 UTC</createdTime>
+<ownerDesignName>sprint1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E567823B-E450-9880-BFF9-4272C40F3E65" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>185417BF-1078-80E1-6BFF-9A8B3ED2F924</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
